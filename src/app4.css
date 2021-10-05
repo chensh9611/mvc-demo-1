@@ -1,0 +1,23 @@
+#app4{
+
+}
+@keyframes change {
+    0%{
+        background: gray;
+    }
+    100%{
+        background: rgb(253 221 155);
+    }
+}
+#app4 .circle{
+    border: 1px solid gray;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    margin-left: 10vw;
+
+}
+#app4 .circle.active{
+    animation: change 1s infinite
+    alternate linear;
+}
